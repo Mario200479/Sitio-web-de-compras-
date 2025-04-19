@@ -1,0 +1,276 @@
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+   
+    
+    
+}
+
+/* Logo */
+.imglogo {
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav .menu {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav .menu:hover {
+    color: #2a9d8f;
+}
+
+/* Título de productos */
+h2 {
+    margin: 30px 0 20px;
+    font-size: 28px;
+}
+
+/* Grid de productos */
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+/* Tarjeta de producto */
+
+
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+/* Imagen del producto */
+.producto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Texto del producto */
+.producto strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.producto p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.producto p strong {
+    color: #2a9d8f;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+
+.producto {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-borrar {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.btn-borrar:hover {
+    background-color: #c82333;
+}
+form {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 400px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.btn-cancelar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-cancelar:hover {
+    background-color: #c82333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
